@@ -5,6 +5,7 @@ import power from "./../assets/images/power.PNG";
 // import pink from "./../assets/images/pink.PNG";
 
 import Chart from "./Chart";
+import Timeline from "./Timeline";
 const Home = () => {
   return (
     <>
@@ -28,7 +29,10 @@ const Home = () => {
             </div>
             <div className="col-lg-6">
               <div className="chest_container">
+                <div className="square"></div>
                 <img src={chestbox} alt="chest box" />
+                <div className="circle"></div>
+
               </div>
             </div>
           </div>
@@ -125,7 +129,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4">
             <div className="card">
-            {/* <img src={pink} alt="" /> */}
+            <i className="qode_icon_font_awesome_5 fa5 fab fa-ethereum qode_iwt_icon_element"></i>
             <h3>Rewards</h3>
               <p>
                 All Loothereum Chest holders will be eligible for the rewards
@@ -140,6 +144,7 @@ const Home = () => {
 
         </div>
       </section>
+      <Timeline/>
     </>
   );
 };
