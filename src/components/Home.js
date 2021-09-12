@@ -136,6 +136,8 @@ const Home = () => {
              
             </div>
           </div>
+        <button className=" btn">Find Loot NOW!</button>
+
         </div>
       </section>
     </>

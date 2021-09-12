@@ -18,7 +18,9 @@ code {
   --bg: #080115;
   --gray: #716d79;
 }
-
+p{
+  color: var(--gray);
+}
 header {
   background: var(--navbar);
   padding: 1.3rem 0;
@@ -57,7 +59,7 @@ header nav .navbar-nav li img {
 .home h1 {
   color: white;
   font-weight: 900;
-  font-size: 5rem;
+  font-size: 500%;
 }
 .home h1 span {
   color: #fff;
@@ -95,8 +97,8 @@ header nav .navbar-nav li img {
   
 }
 .home .chest_container {
-  width: 32rem;
-  height: 32rem;
+  width: 100%;
+  height: 200% !important;
   background: linear-gradient(#1bc5fb, #1c6af1);
   display: flex;
   justify-content: center;
@@ -156,9 +158,18 @@ h1{
   width: 71%;
   font-size: 1.3rem;
 }
+.first_loot .coin_container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .first_loot .coin_container img{
-  width: 30rem;
+  width: 140%;
+  height: 100%;
   margin-left: -10rem;
+  /* position: absolute; */
 }
 .progress{
   /* background: red; */
@@ -170,11 +181,73 @@ h1{
 .give_away{
   margin: 5rem auto;
 }
+.section3 {
+  margin: 5rem auto;
+}
 .section3 .card {
   border: none;
-  background: white;
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem .6rem;
+  text-align: center;
+  height: 100%;
 }
 .section3 .card i{
   font-size: 12rem;
   color: var(--navbar);
+}
+.section3 .card h3{
+  margin: 1.2rem auto;
+
+}
+.section3 button{
+  background: var(--pink);
+  color: white;
+  font-weight: bold;
+  padding: 1.2rem 3.5rem;
+  /* width: 10rem; */
+  font-size: 1.2rem;
+}
+.section3 .container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (max-width:1200px){
+  .first_loot .coin_container{
+   background: yellow;
+  }
+  .first_loot .coin_container img{
+  
+    margin-left:-4rem !important;
+  }
+}
+@media (max-width:990px){
+  .first_loot .coin_container{
+   background: yellow;
+   display: flex;
+  }
+  .first_loot .coin_container img{
+    width: 100%;
+    height: 100%;
+    margin-left:4rem !important;
+  }
+}
+
+@media (max-width:575px){
+ .home .content h1{
+   font-size: 2rem;
+ }
+ .first_loot h1{
+   font-size: 3rem;
+ }
+ .powerdBy h3{
+   font-size: 2rem !important;
+ }
 }
