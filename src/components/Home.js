@@ -12,7 +12,7 @@ const Home = () => {
       <div className="home">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6 col-12">
               <div className="content">
                 <p className="para_first">we're giving away ethereum</p>
                 <h1>
@@ -27,8 +27,8 @@ const Home = () => {
                 <button className="btn">learn more</button>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="chest_container">
+            <div className="col-lg-6 col-md-6 col-12 chest_container">
+              <div className="chest_box">
                 <div className="square"></div>
                 <img src={chestbox} alt="chest box" />
                 <div className="circle"></div>
