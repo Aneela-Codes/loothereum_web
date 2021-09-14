@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/loothereum_web/static/css/main.f1211c1d.chunk.css",
+    "main.js": "/loothereum_web/static/js/main.7fc0f1df.chunk.js",
+    "main.js.map": "/loothereum_web/static/js/main.7fc0f1df.chunk.js.map",
+    "runtime-main.js": "/loothereum_web/static/js/runtime-main.9531815e.js",
+    "runtime-main.js.map": "/loothereum_web/static/js/runtime-main.9531815e.js.map",
+    "static/js/2.d3ea24dc.chunk.js": "/loothereum_web/static/js/2.d3ea24dc.chunk.js",
+    "static/js/2.d3ea24dc.chunk.js.map": "/loothereum_web/static/js/2.d3ea24dc.chunk.js.map",
+    "static/js/3.e490e825.chunk.js": "/loothereum_web/static/js/3.e490e825.chunk.js",
+    "static/js/3.e490e825.chunk.js.map": "/loothereum_web/static/js/3.e490e825.chunk.js.map",
+    "index.html": "/loothereum_web/index.html",
+    "static/css/main.f1211c1d.chunk.css.map": "/loothereum_web/static/css/main.f1211c1d.chunk.css.map",
+    "static/js/2.d3ea24dc.chunk.js.LICENSE.txt": "/loothereum_web/static/js/2.d3ea24dc.chunk.js.LICENSE.txt",
+    "static/media/Ethcoin.5f9819e2.png": "/loothereum_web/static/media/Ethcoin.5f9819e2.png",
+    "static/media/chestbox.74a1925a.png": "/loothereum_web/static/media/chestbox.74a1925a.png",
+    "static/media/instagram.30b397e6.svg": "/loothereum_web/static/media/instagram.30b397e6.svg",
+    "static/media/logo.6ce24c58.svg": "/loothereum_web/static/media/logo.6ce24c58.svg",
+    "static/media/power.4ec2e671.PNG": "/loothereum_web/static/media/power.4ec2e671.PNG",
+    "static/media/tik-tok.da20ff5f.svg": "/loothereum_web/static/media/tik-tok.da20ff5f.svg",
+    "static/media/twitter.88d497cc.svg": "/loothereum_web/static/media/twitter.88d497cc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9531815e.js",
+    "static/js/2.d3ea24dc.chunk.js",
+    "static/css/main.f1211c1d.chunk.css",
+    "static/js/main.7fc0f1df.chunk.js"
+  ]
+}
