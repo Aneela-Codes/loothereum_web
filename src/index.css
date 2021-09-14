@@ -48,7 +48,7 @@ header nav .navbar-nav li img {
 .home {
   background: var(--bg);
   /* background: rgb(33, 164, 187); */
-  height: 90vh;
+  
   padding: 2rem;
 }
 .home .para_first {
@@ -95,20 +95,15 @@ header nav .navbar-nav li img {
 }
 .home .chest_container {
   position: relative;
-  /* width: 100%;
-  height: 210% !important; */
   background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  /* padding: 4rem 1rem; */
   box-shadow: none;
-  /* animation-name: box; */
   transition: ease-in;
   animation-iteration-count: infinite;
   height: 100%;
-
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home .chest_box {
   position: relative;
@@ -118,15 +113,19 @@ header nav .navbar-nav li img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  /* padding: 4rem 1rem; */
+  /* padding: 4rem 0; */
   box-shadow: #b264e6 0px 2px 1px 0px, #1c6af1 0px 2px 5px 0px;
   /* animation-name: box; */
   transition: ease-in;
   animation-iteration-count: infinite;
-  height: 200%;
+  height: 30rem;
+  width: 30rem;
 
 }
-
+.home .chest_box img {
+  width: 80%;
+ position: absolute;
+}
 .home .chest_box .square {
   position: absolute;
   background: linear-gradient(#f020c3, #5d1b9b);
@@ -169,10 +168,7 @@ header nav .navbar-nav li img {
   border-radius: 2rem;
 }
 
-.home .chest_box img {
-  width: 20rem;
-  padding: 4rem;
-}
+
 @keyframes box {
   from {
     top: -1rem;
@@ -441,5 +437,61 @@ footer i {
   }
   .home .chest_box img{
     width: 20rem;
+  }
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width: 985px) and (min-width: 770px) {
+    .chest_box{
+    
+      width: 23rem !important;
+      height: 23rem !important;
+     
+    }
+    .chest_box img{
+      width: 50%;
+    }
+    .home .content h1{
+      font-size: 3.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 570px) and (min-width: 415px) {
+  .chest_box{
+ 
+    width: 23rem !important;
+    height: 23rem !important;
+   
+  }
+  .chest_box img{
+    width: 50%;
+  }
+  .home .content h1{
+    font-size: 3.5rem !important;
+  }
+  .chest_box .square , .chest_box .circle{
+    display: none !important;
+  }
+}
+
+
+@media only screen and (max-width: 415px) and (min-width: 250px) {
+  .chest_box{
+    
+    width: 10rem !important;
+    height: 10rem !important;
+   margin-left: 4.5rem;
+  }
+  .chest_box img{
+    width: 8rem;
+  }
+  .home .content h1{
+    font-size: 2.7rem !important;
+  }
+  .chest_box .square , .chest_box .circle{
+    display: none !important;
   }
 }

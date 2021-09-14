@@ -27,12 +27,14 @@ const Home = () => {
                 <button className="btn">learn more</button>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-12 chest_container">
+            <div className="col-lg-6 col-md-6 col-12 my-5 ">
+            
               <div className="chest_box">
                 <div className="square"></div>
                 <img src={chestbox} alt="chest box" />
                 <div className="circle"></div>
 
+              
               </div>
             </div>
           </div>

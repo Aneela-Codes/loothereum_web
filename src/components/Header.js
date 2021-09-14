@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header >
           <div className="container">
-          <nav className="navbar navbar-expand-lg">
+          <nav className="navbar navbar-expand-lg navbar-light">
      <div className="container-fluid">
     <a className="navbar-brand" href="/"> <img src={light} alt="logo" /> </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,23 +32,7 @@ const Header = () => {
         <li className="nav-item">
           <a className="nav-link" href="/">timeline</a>
         </li>
-        <li className="nav-item">
-       <a className="nav-link" href="/"> 
-       <img src={tiktok} alt="" />
-       
-        </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/">
-            <img src={twitter} alt="" />
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/">
-          <img src={instagram} alt="" />
-
-          </a>
-        </li>
+    
         
       </ul>
     </div>
